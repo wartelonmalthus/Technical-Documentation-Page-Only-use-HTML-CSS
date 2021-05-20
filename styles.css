@@ -1,1 +1,117 @@
+#main-doc{
+    display: flex;
+}
+
+#leftside{
+    margin-left: 305px;
+}
+
+#navbar{
+    margin: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#navbar header{
+    width: 184px;
+    margin: 0 0 0 52px;
+    border: 1px solid;
+    text-align: center;
+    background-color: #F1C40F;
+}
+#navbar header h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: #1A5276;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#navbar ul{
+    
+    width: 267px;
+    height: 402px;
+    overflow-y: auto;
+    border: 1px solid;
+    padding: 0;
+
+}
+
+#navbar ul li{
+    font-size: 20px;
+    margin: 20px;
+    list-style: none;
+    border: 1px solid;
+    padding: 15px;
+    background-color:#FCF3CF;
+    
+}
+
+
+#navbar ul li a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+
+    color: #1A5276;
+    font-weight: bold;
+
+}
+#navbar ul li a:hover{
+    color: #F1C40F;
+    font-weight: bold;
+    border: 1px solid #154360;
+    background-color: white;
+}
+
+
+.main-section{
+    background-color: #FDFEFE;
+    margin: 20px;
+    padding: 10px;
+}
+
+.main-section h3{
+    background-color: #1A5276;
+    padding: 10px;
+    color: #F4D03F;
+}
+
+@media only screen and (max-width: 768px ){
+
+    
+    #main-doc{
+        display: block;
+    }
+
+    #navbar{
+        position: static;
+    }
+    #navbar header{
+
+    }
+    #navbar ul{
+        border: 1px solid;
+        width: 425px;
+        padding: 0;
+        height: 211px;
+        overflow-y: auto;
+
+    }
+    #navbar ul li {
+        border: 1px solid;
+    margin: 18px;
+    
+    padding: 8px;
+    }
+
+    section{
+
+    }
+
+    #leftside{
+        margin-left: 0;
+    }
+
+
+
+}
 
