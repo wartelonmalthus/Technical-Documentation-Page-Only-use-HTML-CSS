@@ -4,9 +4,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecniical Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">   
+    <title>Tecnical Page</title>
 </head>
 <body>
-    
+    <main id="main-doc">
+        <!--rightside-->
+        <nav id="navbar">
+            <header>
+                <h1>Python Doc</h1>
+            </header>
+
+            <ul>
+                
+                <li><a href="#python-home">python-home</a></li>
+                <li><a href="#python-variables-arrays">python-variables-arrays</a></li>
+                <li><a href="#python-if-else">python-if-else</a></li>
+                <li><a href="python-functions">python-functions</a></li>
+                <li><a href="python-classes/objetos">python-classes/objetos</a></li>
+            </ul>
+        </nav>
+
+    <div id="leftside">
+        <!---leftside-->
+        <section class="main-section">
+         <header id="python-home">
+             <h3>What is Python?</h3>
+             <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+                It is used for:</p>
+
+                <ul>
+                    <li>web development (server-side)</li>
+                    <li>software development</li>
+                    <li>mathematics</li>
+                    <li>system scripting</li>
+                </ul>
+         </header>
+
+         <h3>What can Python do?</h3>
+         <ul>
+             <li> used on a server to create web applications.</li>
+             <li>used alongside software to create workflows.</li>
+             <li>can connect to database systems. It can also read and modify files.</li>
+             <li>can be used to handle big data and perform complex mathematics.</li>
+             <li>can be used for rapid prototyping, or for production-ready software development.</li>
+         </ul>
+
+         <h3>Other sites for you learn Python!</h3>
+
+         <p>https://www.learnpython.org/</p>
+         <p>https://www.datacamp.com/</p>
+         <p>https://www.w3schools.com/python</p>
+
+
+
+        </section>
+        <section class="main-section">
+            <header id="python-variables-arrays">
+                <h3>Variables</h3>
+                <p>Variables are containers for storing data values.</p>
+
+                <h3>Creating Variables</h3>
+                <p>Python has no command for declaring a variable.
+
+                    A variable is created the moment you first assign a value to it.</p>
+
+                    <p>Example</p>
+
+                    <ul id="example">
+                        <li>x = 5</li>
+                        <li>y = "John"</li>
+                        <li>print(x)</li>
+                        <li> print(y)</li>
+                    </ul>
+            </header>
+
+            <h3>Built-in Data Types</h3>
+            <p>In programming, data type is an important concept.
+
+                Variables can store data of different types, and different types can do different things.
+                
+                Python has the following data types built-in by default, in these categories:</p>
+
+                <ul>
+                    <li>Text Type:	str</li>
+                    <li>Numeric Types:	int, float, complex</li>
+                    <li>Sequence Types:	list, tuple, range</li>
+                    <li>Mapping Type:	dict</li>
+                    <li>Set Types:	set, frozenset</li>
+                    <li>Boolean Type:	bool</li>
+                    <li>Binary Types:	bytes, bytearray, memoryview</li>
+                    
+                </ul>
+
+                <h3>What is an Array?</h3>
+                <p>An array is a special variable, which can hold more than one value at a time.
+
+                    If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:</p>
+
+                   <ul id="example">
+                       <li>car1 = "Ford"</li>
+                       <li>car2 = "Volvo"</li>
+                       <li>car3 = "BMW"</li>
+                   </ul> 
+
+        </section>
+        <section class="main-section">
+            <header id="python-if-else">
+
+                <h3>Python Conditions and If statements</h3>
+                <p>Python supports the usual logical conditions from mathematics:</p>
+                
+                <ul>
+                    <li>Equals: a == b</li>
+                    <li>Not Equals: a != b</li>
+                    <li>Less than: a < b</li>
+                    <li>Less than or equal to: a <= b</li>
+                    <li>Greater than: a > b</li>
+                    <li>Greater than or equal to: a >= b</li>
+                </ul>
+
+            </header>
+
+            <p>These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+                An "if statement" is written by using the if keyword.</p>
+
+                <p>Example:</p>
+
+                <ul id="example">
+                 <li>a = 33</li>
+                 <li>b = 200</li>
+                 <li>if b > a:</li>
+                 <li>print("b is greater than a")</li>
+
+                </ul>
+        </section>
+        <section class="main-section">
+            <header id="python-functions">
+                <h3>Functions</h3>
+                <p>A function is a block of code which only runs when it is called.
+
+                    You can pass data, known as parameters, into a function.
+                    
+                    A function can return data as a result.
+                    
+                    </p>
+
+                    <h3>Creating a Function</h3>
+                    <p>In Python a function is defined using the def keyword:</p>
+                    <p>Example</p>
+                    <ul id="example">
+                        <li>def my_function():</li>
+                        <li> print("Hello from a function")/li>
+                        <li>my_function()</li>
+                    </ul>
+            </header>
+        </section>
+        <section class="main-section"> 
+            <header id="python-classes/objetos">
+            <h2>Python Classes/Objects</h2>
+            <p>Python is an object oriented programming language.
+
+                Almost everything in Python is an object, with its properties and methods.
+                
+                A Class is like an object constructor, or a "blueprint" for creating objects.</p>
+            </header>
+
+            <h2>Create a Class</h2>
+            <p>To create a class, use the keyword class:</p>
+            <p>Example</p>
+            <ul id="example"> 
+                <li>class MyClass:</li>
+                <li> x = 5</li>
+
+            </ul>
+
+            <h2>Create Object</h2>
+            <p>Now we can use the class named MyClass to create objects:</p>
+            <p>Example</p>
+            <ul>
+                <li>p1 = MyClass()</li>
+                <li>print(p1.x)</li>
+                
+            </ul>
+
+            <h2>The __init__() Function</h2>
+            <p>The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
+
+                To understand the meaning of classes we have to understand the built-in __init__() function.
+                
+                All classes have a function called __init__(), which is always executed when the class is being initiated.
+                
+                Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:</p>
+
+                <p>Example:</p>
+                <ul id="example">
+                    <li>class Person:</li>
+                    <li>def __init__(self, name, age):</li>
+                             <li> self.name = name</li>
+                            <li>self.age = age</li>
+                    <li>p1 = Person("John", 36)</li>
+                    <li>print(p1.name)</li>
+                    <li> print(p1.age)</li>
+                </ul>
+              
+        </section>
+    </div>
+    </main>
 </body>
 </html>
