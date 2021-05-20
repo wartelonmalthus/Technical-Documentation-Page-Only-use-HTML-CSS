@@ -11,6 +11,7 @@
     position: fixed;
     left: 0;
     top: 0;
+    height: 700px;
 }
 #navbar header{
     width: 184px;
@@ -29,15 +30,16 @@
 #navbar ul{
     
     width: 267px;
-    height: 402px;
+    height: 483px;
     overflow-y: auto;
     border: 1px solid;
     padding: 0;
 
+
 }
 
 #navbar ul li{
-    font-size: 20px;
+    font-size: 15px;
     margin: 20px;
     list-style: none;
     border: 1px solid;
@@ -85,9 +87,7 @@
     #navbar{
         position: static;
     }
-    #navbar header{
-
-    }
+  
     #navbar ul{
         border: 1px solid;
         width: 425px;
